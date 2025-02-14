@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674499801",
+    "project_id": "bd-appbloqueos",
+    "storage_bucket": "bd-appbloqueos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674499801:android:b51ce2ad7e6527a77e42c8",
+        "android_client_info": {
+          "package_name": "com.example.appadministrador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUd_qIg2i4bq0c1bqSMU3huxKc1Y78tjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
