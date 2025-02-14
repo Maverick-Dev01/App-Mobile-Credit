@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Registro"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Datos del Teléfono: "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMEI:" />
+
+        <EditText
+            android:id="@+id/etIMEI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IMEI del dispositivo"
+            android:inputType="number"
+            android:maxLength="15"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca del Teléfono:" />
+
+        <Spinner
+            android:id="@+id/etMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio:" />
+
+        <EditText
+            android:id="@+id/etPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Precio del teléfono"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porcentaje de Interes:" />
+
+        <Spinner
+            android:id="@+id/spinnerInteres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/porcentajes_interes" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Datos del Cliente:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Completo del Cliente:" />
+
+        <EditText
+            android:id="@+id/etNombreCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Completo del Cliente" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domicilio:" />
+
+        <EditText
+            android:id="@+id/etDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Domicilio" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edad:" />
+
+        <EditText
+            android:id="@+id/etEdad"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Periodo de Pago:" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de inicio">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFechaInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de finalización">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFechaFin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pago Semanal:" />
+
+        <EditText
+            android:id="@+id/etPagoSemanal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Pago Semanal"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semanas Totales:" />
+
+        <TextView
+            android:id="@+id/tvTotalSemanas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de semanas: 0"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monto Total:" />
+
+        <EditText
+            android:id="@+id/etMontoTotal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Monto total de pago"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+
+</ScrollView>

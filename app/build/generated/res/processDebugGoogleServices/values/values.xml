@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">674499801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCUd_qIg2i4bq0c1bqSMU3huxKc1Y78tjM</string>
+    <string name="google_app_id" translatable="false">1:674499801:android:b51ce2ad7e6527a77e42c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCUd_qIg2i4bq0c1bqSMU3huxKc1Y78tjM</string>
+    <string name="google_storage_bucket" translatable="false">bd-appbloqueos.firebasestorage.app</string>
+    <string name="project_id" translatable="false">bd-appbloqueos</string>
+</resources>
